@@ -1,0 +1,285 @@
+ <menu id="Educatie" label="Educatie">
+      <item label="LibreOffice Math" icon="/usr/share/icons/hicolor/16x16/apps/libreoffice-math.png">
+       <action name="Execute"><execute>libreoffice --math </execute></action>
+     </item>
+ </menu> <!-- Educatie -->
+ <menu id="Geluid &amp; Video" label="Geluid &amp; Video">
+      <item label="Audacious" icon="/usr/share/icons/hicolor/48x48/apps/audacious.png">
+       <action name="Execute"><execute>audacious </execute></action>
+     </item>
+      <item label="Celluloid">
+       <action name="Execute"><execute>celluloid </execute></action>
+     </item>
+      <item label="Echomixer" icon="/usr/share/icons/hicolor/48x48/apps/echomixer.png">
+       <action name="Execute"><execute>echomixer</execute></action>
+     </item>
+      <item label="Envy24 Control" icon="/usr/share/icons/hicolor/48x48/apps/envy24control.png">
+       <action name="Execute"><execute>envy24control</execute></action>
+     </item>
+      <item label="FreetuxTV" icon="/usr/share/icons/hicolor/16x16/apps/freetuxtv.png">
+       <action name="Execute"><execute>freetuxtv</execute></action>
+     </item>
+      <item label="HDAJackRetask">
+       <action name="Execute"><execute>hdajackretask</execute></action>
+     </item>
+      <item label="HDSPConf" icon="/usr/share/icons/hicolor/48x48/apps/hdspconf.png">
+       <action name="Execute"><execute>hdspconf</execute></action>
+     </item>
+      <item label="HDSPMixer" icon="/usr/share/icons/hicolor/48x48/apps/hdspmixer.png">
+       <action name="Execute"><execute>hdspmixer</execute></action>
+     </item>
+      <item label="Hwmixvolume" icon="/usr/share/icons/hicolor/48x48/apps/hwmixvolume.png">
+       <action name="Execute"><execute>hwmixvolume</execute></action>
+     </item>
+      <item label="Qt V4L2 test Utility" icon="/usr/share/icons/hicolor/16x16/apps/qv4l2.png">
+       <action name="Execute"><execute>qv4l2</execute></action>
+     </item>
+      <item label="Qt V4L2 video capture utility" icon="/usr/share/icons/hicolor/16x16/apps/qvidcap.png">
+       <action name="Execute"><execute>qvidcap</execute></action>
+     </item>
+      <item label="SMPlayer" icon="/usr/share/icons/hicolor/16x16/apps/smplayer.png">
+       <action name="Execute"><execute>smplayer </execute></action>
+     </item>
+      <item label="VLC media player" icon="/usr/share/icons/hicolor/16x16/apps/vlc.png">
+       <action name="Execute"><execute>/usr/bin/vlc --started-from-file </execute></action>
+     </item>
+      <item label="mpv Media Player" icon="/usr/share/icons/hicolor/16x16/apps/mpv.png">
+       <action name="Execute"><execute>mpv --player-operation-mode=pseudo-gui -- </execute></action>
+     </item>
+ </menu> <!-- Geluid & Video -->
+ <menu id="Grafisch" label="Grafisch">
+      <item label="GNU Image Manipulation Program" icon="/usr/share/icons/hicolor/16x16/apps/gimp.png">
+       <action name="Execute"><execute>gimp-2.99 </execute></action>
+     </item>
+      <item label="Inkscape" icon="/usr/share/icons/hicolor/16x16/apps/org.inkscape.Inkscape.png">
+       <action name="Execute"><execute>inkscape </execute></action>
+     </item>
+      <item label="Kleurenkiezer">
+       <action name="Execute"><execute>gcolor3</execute></action>
+     </item>
+      <item label="LibreOffice Draw" icon="/usr/share/icons/hicolor/16x16/apps/libreoffice-draw.png">
+       <action name="Execute"><execute>libreoffice --draw </execute></action>
+     </item>
+ </menu> <!-- Grafisch -->
+ <menu id="Hulpmiddelen" label="Hulpmiddelen">
+      <item label="AppImageLauncher Settings" icon="/usr/share/icons/hicolor/16x16/apps/AppImageLauncher.png">
+       <action name="Execute"><execute>AppImageLauncherSettings </execute></action>
+     </item>
+      <item label="Azote" icon="/usr/share/pixmaps/azote.svg">
+       <action name="Execute"><execute>azote</execute></action>
+     </item>
+      <item label="FeatherNotes">
+       <action name="Execute"><execute>feathernotes </execute></action>
+     </item>
+      <item label="FeatherPad">
+       <action name="Execute"><execute>featherpad </execute></action>
+     </item>
+      <item label="Galculator" icon="/usr/share/icons/hicolor/48x48/apps/galculator.png">
+       <action name="Execute"><execute>galculator</execute></action>
+     </item>
+      <item label="LXQt-bestandsarchiveerder">
+       <action name="Execute"><execute>lxqt-archiver </execute></action>
+     </item>
+      <item label="PCManFM-Qt-bestandsbeheerder">
+       <action name="Execute"><execute>pcmanfm-qt </execute></action>
+     </item>
+      <item label="SDDM-instellingen">
+       <action name="Execute"><execute>sddm-conf</execute></action>
+     </item>
+      <item label="Software Token" icon="/usr/share/pixmaps/stoken-gui.png">
+       <action name="Execute"><execute>stoken-gui</execute></action>
+     </item>
+      <item label="Software Token (small)" icon="/usr/share/pixmaps/stoken-gui.png">
+       <action name="Execute"><execute>stoken-gui --small</execute></action>
+     </item>
+      <item label="Ventoy" icon="/usr/share/pixmaps/ventoy.png">
+       <action name="Execute"><execute>ventoygui</execute></action>
+     </item>
+      <item label="gomuks">
+       <action name="Execute"><execute>xterm -e gomuks</execute></action>
+     </item>
+      <item label="nchat">
+       <action name="Execute"><execute>xterm -e nchat</execute></action>
+     </item>
+      <item label="pacseek" icon="/usr/share/icons/hicolor/256x256/apps/pacseek.png">
+       <action name="Execute"><execute>kitty "pacseek"</execute></action>
+     </item>
+      <item label="picom">
+       <action name="Execute"><execute>picom</execute></action>
+     </item>
+ </menu> <!-- Hulpmiddelen -->
+ <menu id="Internet" label="Internet">
+      <item label="Avahi SSH server browser">
+       <action name="Execute"><execute>/usr/bin/bssh</execute></action>
+     </item>
+      <item label="Avahi VNC server browser">
+       <action name="Execute"><execute>/usr/bin/bvnc</execute></action>
+     </item>
+      <item label="Connman-gebruikersinterface instellen" icon="/usr/share/icons/hicolor/16x16/apps/cmst.png">
+       <action name="Execute"><execute>cmst</execute></action>
+     </item>
+      <item label="Element" icon="/usr/share/icons/hicolor/16x16/apps/io.element.Element.png">
+       <action name="Execute"><execute>/usr/bin/element-desktop </execute></action>
+     </item>
+      <item label="Firefox webbrowser" icon="/usr/share/icons/hicolor/16x16/apps/firefox.png">
+       <action name="Execute"><execute>/usr/lib/firefox/firefox </execute></action>
+     </item>
+      <item label="Telegram Desktop" icon="/usr/share/icons/hicolor/16x16/apps/telegram.png">
+       <action name="Execute"><execute>telegram-desktop -- </execute></action>
+     </item>
+      <item label="Thunderbird" icon="/usr/share/icons/hicolor/16x16/apps/org.mozilla.Thunderbird.png">
+       <action name="Execute"><execute>thunderbird </execute></action>
+     </item>
+ </menu> <!-- Internet -->
+ <menu id="Kantoor" label="Kantoor">
+      <item label="LibreOffice" icon="/usr/share/icons/hicolor/16x16/apps/libreoffice-startcenter.png">
+       <action name="Execute"><execute>libreoffice </execute></action>
+     </item>
+      <item label="LibreOffice Base" icon="/usr/share/icons/hicolor/16x16/apps/libreoffice-base.png">
+       <action name="Execute"><execute>libreoffice --base </execute></action>
+     </item>
+      <item label="LibreOffice Calc" icon="/usr/share/icons/hicolor/16x16/apps/libreoffice-calc.png">
+       <action name="Execute"><execute>libreoffice --calc </execute></action>
+     </item>
+      <item label="LibreOffice Draw" icon="/usr/share/icons/hicolor/16x16/apps/libreoffice-draw.png">
+       <action name="Execute"><execute>libreoffice --draw </execute></action>
+     </item>
+      <item label="LibreOffice Impress" icon="/usr/share/icons/hicolor/16x16/apps/libreoffice-impress.png">
+       <action name="Execute"><execute>libreoffice --impress </execute></action>
+     </item>
+      <item label="LibreOffice Math" icon="/usr/share/icons/hicolor/16x16/apps/libreoffice-math.png">
+       <action name="Execute"><execute>libreoffice --math </execute></action>
+     </item>
+      <item label="LibreOffice Writer" icon="/usr/share/icons/hicolor/16x16/apps/libreoffice-writer.png">
+       <action name="Execute"><execute>libreoffice --writer </execute></action>
+     </item>
+      <item label="Xpdf" icon="/usr/share/pixmaps/xpdf.svg">
+       <action name="Execute"><execute>xpdf </execute></action>
+     </item>
+      <item label="Zathura" icon="/usr/share/icons/hicolor/16x16/apps/org.pwmt.zathura.png">
+       <action name="Execute"><execute>zathura </execute></action>
+     </item>
+ </menu> <!-- Kantoor -->
+ <menu id="Ontwikkeling" label="Ontwikkeling">
+      <item label="CMake" icon="/usr/share/icons/hicolor/32x32/apps/CMakeSetup.png">
+       <action name="Execute"><execute>cmake-gui </execute></action>
+     </item>
+      <item label="Electron 29" icon="/usr/share/pixmaps/electron29.png">
+       <action name="Execute"><execute>electron29 </execute></action>
+     </item>
+      <item label="Electron 30" icon="/usr/share/pixmaps/electron30.png">
+       <action name="Execute"><execute>electron30 </execute></action>
+     </item>
+      <item label="Electron 31" icon="/usr/share/pixmaps/electron31.png">
+       <action name="Execute"><execute>electron31 </execute></action>
+     </item>
+      <item label="Git Cola">
+       <action name="Execute"><execute>git-cola --prompt</execute></action>
+     </item>
+      <item label="Git DAG">
+       <action name="Execute"><execute>git-dag --prompt</execute></action>
+     </item>
+      <item label="GitHub Desktop" icon="/usr/share/icons/hicolor/32x32/apps/github-desktop.png">
+       <action name="Execute"><execute>/usr/bin/github-desktop </execute></action>
+     </item>
+      <item label="GitHub Desktop" icon="/usr/share/icons/hicolor/32x32/apps/github-desktop.png">
+       <action name="Execute"><execute>/usr/bin/github-desktop --enable-features=WaylandWindowDecorations --ozone-platform=wayland </execute></action>
+     </item>
+      <item label="Glade">
+       <action name="Execute"><execute>glade </execute></action>
+     </item>
+      <item label="Icon Browser" icon="/usr/share/icons/hicolor/16x16/apps/yad.png">
+       <action name="Execute"><execute>yad-icon-browser</execute></action>
+     </item>
+      <item label="Meld">
+       <action name="Execute"><execute>meld </execute></action>
+     </item>
+      <item label="Qt Assistant" icon="/usr/share/icons/hicolor/32x32/apps/assistant.png">
+       <action name="Execute"><execute>assistant</execute></action>
+     </item>
+      <item label="Qt Designer" icon="/usr/share/icons/hicolor/128x128/apps/QtProject-designer.png">
+       <action name="Execute"><execute>designer </execute></action>
+     </item>
+      <item label="Qt Linguist" icon="/usr/share/icons/hicolor/16x16/apps/linguist.png">
+       <action name="Execute"><execute>linguist </execute></action>
+     </item>
+      <item label="Qt QDBusViewer " icon="/usr/share/icons/hicolor/32x32/apps/qdbusviewer.png">
+       <action name="Execute"><execute>qdbusviewer</execute></action>
+     </item>
+      <item label="Waycheck">
+       <action name="Execute"><execute>waycheck</execute></action>
+     </item>
+ </menu> <!-- Ontwikkeling -->
+ <menu id="Spelletjes" label="Spelletjes">
+      <item label="0 A.D." icon="/usr/share/pixmaps/0ad.png">
+       <action name="Execute"><execute>0ad </execute></action>
+     </item>
+      <item label="Speed Dreams (2.3.0)" icon="/home/ringo/.local/share/icons/appimagekit_7f0f39b2b9bef097923ab7feaa3a95ab_speed-dreams.png">
+       <action name="Execute"><execute>/home/ringo/Applications/speed-dreams-2.3.0-x86-64.AppImage</execute></action>
+     </item>
+      <item label="SpeedDreams">
+       <action name="Execute"><execute>xterm -e ./home/ringo/Downloads/speeddream/speed-dreams-2.3.0-x86-64.AppImage</execute></action>
+     </item>
+      <item label="Teeworlds" icon="/usr/share/pixmaps/teeworlds.png">
+       <action name="Execute"><execute>teeworlds</execute></action>
+     </item>
+ </menu> <!-- Spelletjes -->
+ <menu id="Systeemgereedschap" label="Systeemgereedschap">
+      <item label="Avahi zeroconf browser">
+       <action name="Execute"><execute>/usr/bin/avahi-discover</execute></action>
+     </item>
+      <item label="EndeavourOS Quickstart Installer">
+       <action name="Execute"><execute>eos-quickstart</execute></action>
+     </item>
+      <item label="Foot" icon="/usr/share/icons/hicolor/48x48/apps/foot.png">
+       <action name="Execute"><execute>foot</execute></action>
+     </item>
+      <item label="Foot Client" icon="/usr/share/icons/hicolor/48x48/apps/foot.png">
+       <action name="Execute"><execute>footclient</execute></action>
+     </item>
+      <item label="Foot Server" icon="/usr/share/icons/hicolor/48x48/apps/foot.png">
+       <action name="Execute"><execute>foot --server</execute></action>
+     </item>
+      <item label="Hardware Locality lstopo">
+       <action name="Execute"><execute>lstopo</execute></action>
+     </item>
+      <item label="Htop" icon="/usr/share/pixmaps/htop.png">
+       <action name="Execute"><execute>xterm -e htop</execute></action>
+     </item>
+      <item label="Octopi" icon="/usr/share/icons/octopi.png">
+       <action name="Execute"><execute>/usr/bin/octopi</execute></action>
+     </item>
+      <item label="Octopi CacheCleaner" icon="/usr/share/icons/octopi.png">
+       <action name="Execute"><execute>/usr/bin/octopi-cachecleaner</execute></action>
+     </item>
+      <item label="Octopi Notifier" icon="/usr/share/icons/octopi.png">
+       <action name="Execute"><execute>/usr/bin/octopi-notifier</execute></action>
+     </item>
+      <item label="Octopi Repository Editor" icon="/usr/share/icons/octopi.png">
+       <action name="Execute"><execute>/usr/bin/octopi-repoeditor</execute></action>
+     </item>
+      <item label="Reflector Simple" icon="/usr/share/pixmaps/endeavouros-icon.png">
+       <action name="Execute"><execute>/usr/bin/reflector-simple</execute></action>
+     </item>
+      <item label="Virtuele machine beheerder" icon="/usr/share/icons/hicolor/16x16/apps/virt-manager.png">
+       <action name="Execute"><execute>virt-manager</execute></action>
+     </item>
+      <item label="Waycheck">
+       <action name="Execute"><execute>waycheck</execute></action>
+     </item>
+      <item label="Welcome" icon="/usr/share/pixmaps/endeavouros-icon.png">
+       <action name="Execute"><execute>eos-welcome --once</execute></action>
+     </item>
+      <item label="btop++" icon="/usr/share/icons/hicolor/48x48/apps/btop.png">
+       <action name="Execute"><execute>xterm -e btop</execute></action>
+     </item>
+      <item label="dconf-bewerker">
+       <action name="Execute"><execute>dconf-editor</execute></action>
+     </item>
+      <item label="eos-update" icon="/usr/share/pixmaps/endeavouros-icon.png">
+       <action name="Execute"><execute>xterm -e bash -c "echo '==> eos-update --yay'; eos-update --yay; eos-sleep-counter 60"</execute></action>
+     </item>
+      <item label="kitty" icon="/usr/share/icons/hicolor/256x256/apps/kitty.png">
+       <action name="Execute"><execute>kitty</execute></action>
+     </item>
+ </menu> <!-- Systeemgereedschap -->

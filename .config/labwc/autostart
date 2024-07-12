@@ -1,0 +1,22 @@
+# setup monitors
+#/home/ryne/.local/bin/fix-monitors-wl >/dev/null 2>&1 &
+#/home/ryne/.local/bin/swaybg-rotate.sh >/dev/null 2>&1 &
+
+# Set background color.
+/usr/bin/kanshi &
+/usr/bin/waybar -c ~/.config/waybar/config -s ~/.config/waybar/style.css  >/dev/null 2>&1 &
+/usr/bin/wlsunset -t 2800 -T 3800 -l 47.2 -L -123 &
+#/usr/bin/sfwbar -f ~/.config/sfwbar/t2.conf >/dev/null 2>&1 &
+#sfwbar &
+#sh ~/.azotebg &
+#wpaperd -d &
+#xfce4-panel &
+swww-daemon &
+
+/usr/bin/mako >/dev/null 2>&1 &
+#/usr/bin/blueberry >/dev/null 2>&1 &
+swayidle -w \
+	timeout 300 'swaylock -f -c 000000' \
+	timeout 600 'wlopm --off \*' \
+	resume 'wlopm --on \*' \
+	before-sleep 'swaylock -f -c 000000' >/dev/null 2>&1 &

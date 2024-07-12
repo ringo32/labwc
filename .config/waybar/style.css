@@ -1,0 +1,94 @@
+* {
+ border: none;
+    border-radius: 0px;
+    font-family: SauceCodePro Nerd Font;
+    font-size: 10pt;
+    font-style: normal;
+    min-height: 0;
+  transition: none;
+  box-shadow: none;
+}
+
+
+window#waybar {
+  background-color: rgba(52,45,113,0.8);
+  color: #ffffff;
+  border-radius: 15px;
+  border-width: 1px;
+  border-color: #ac4cd5;
+  border-style: solid;
+  
+}
+
+window#waybar.hidden {
+  opacity: 0.9;
+}
+
+#window {
+  color: #64727d;
+}
+#battery,
+#custom-clipboard,
+#custom-colorpicker,
+#custom-powerDraw,
+#bluetooth,
+#pulseaudio,
+#network,
+#disk,
+#memory,
+#backlight,
+#cpu,
+#temperature,
+#custom-weather,
+#idle_inhibitor,
+#jack,
+#tray,
+#window,
+#workspaces,
+#clock {
+  padding: 0 5px;
+}
+#pulseaudio {
+  padding-top: 3px;
+}
+
+#temperature.critical,
+#pulseaudio.muted {
+  color: #FF0000;
+  padding-top: 0;
+}
+
+
+
+
+#clock{
+  color: #5fd1fa;
+}
+
+#battery.charging {
+    color: #ffffff;
+    background-color: #26A65B;
+}
+
+#battery.warning:not(.charging) {
+    background-color: #ffbe61;
+    color: black;
+}
+
+#battery.critical:not(.charging) {
+    background-color: #f53c3c;
+    color: #ffffff;
+    animation-name: blink;
+    animation-duration: 0.5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+
+@keyframes blink {
+    to {
+        background-color: #ffffff;
+        color: #000000;
+    }
+}

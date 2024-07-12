@@ -1,0 +1,203 @@
+<?xml version="1.0"?>
+<!--
+  This is a very basic config file for labwc with LXQt with many options missing. For a complete
+  set of options with comments, see docs/rc.xml.all
+  Theme "Vent-dark" has to be copied to ~/.local/share/themes/Vent-dark"
+-->
+<labwc_config>
+  <core>
+    <gap>0</gap>
+  </core>
+  <theme>
+    <name>silence-arch</name>
+    <cornerRadius>0</cornerRadius>
+    <font place="ActiveWindow">
+      <name>sans</name>
+      <size>9</size>
+      <slant>normal</slant>
+      <weight>bold</weight>
+    </font>
+    <font place="InActiveWindow">
+      <name>sans</name>
+      <size>13</size>
+      <slant>normal</slant>
+      <weight>bold</weight>
+    </font>
+    <font place="MenuItem">
+      <name>sans</name>
+      <size>12</size>
+      <slant>normal</slant>
+      <weight>normal</weight>
+    </font>
+    <font place="OnScreenDisplay">
+      <name>sans</name>
+      <size>13</size>
+      <slant>normal</slant>
+      <weight>normal</weight>
+    </font>
+    <dropShadows>yes</dropShadows>
+  </theme>
+  <windowSwitcher show="yes" preview="yes" outlines="yes" allWorkspaces="no">
+    <fields>
+      <field content="type" width="25%"/>
+      <field content="trimmed_identifier" width="25%"/>
+      <!-- <field content="identifier" width="25%" /> -->
+      <field content="title" width="50%"/>
+    </fields>
+  </windowSwitcher>
+  <regions>
+    <region name="top-left" x="0%" y="0%" height="50%" width="50%"/>
+    <region name="top" x="0%" y="0%" height="50%" width="100%"/>
+    <region name="top-right" x="50%" y="0%" height="50%" width="50%"/>
+    <region name="left" x="0%" y="0%" height="100%" width="50%"/>
+    <region name="center" x="10%" y="10%" height="80%" width="80%"/>
+    <region name="right" x="50%" y="0%" height="100%" width="50%"/>
+    <region name="bottom-left" x="0%" y="50%" height="50%" width="50%"/>
+    <region name="bottom" x="0%" y="50%" height="50%" width="100%"/>
+    <region name="bottom-right" x="50%" y="50%" height="50%" width="50%"/>
+  </regions>
+  <snapping>
+    <!-- Set range to 0 to disable window snapping completely -->
+    <range>1</range>
+    <overlay enabled="yes">
+      <delay inner="500" outer="500"/>
+    </overlay>
+    <topMaximize>yes</topMaximize>
+    <notifyClient>always</notifyClient>
+  </snapping>
+  <desktops>
+    <popupTime>1000</popupTime>
+    <names>
+      <name>Workspace 1</name>
+      <name>Workspace 2</name>
+      <name>Workspace 3</name>
+      <name>Workspace 4</name>
+    </names>
+  </desktops>
+  <keyboard>
+    <numlock>on</numlock>
+    <default/>
+    <!-- Reload config -->
+    <keybind key="C-W-tab">
+      <action name="GoToDesktop" to="right"/>
+    </keybind>
+    <keybind key="W-A-tab">
+      <action name="GoToDesktop" to="left"/>
+    </keybind>
+    <keybind key="W-print">
+      <action name="Execute" command="sh ~/.config/labwc/screenshot.sh"/>
+    </keybind>
+    <keybind key="S-W-print">
+      <action name="Execute" command="sh ~/.config/labwc/colorpick.sh"/>
+    </keybind>
+    <keybind key="W-l">
+      <action name="Execute" command="swaylock"/>
+    </keybind>
+    <keybind key="C-S-r">
+      <action name="Reconfigure"/>
+    </keybind>
+    <!-- LXQt Keybindings -->
+    <keybind key="W-Return">
+      <action name="Execute" command="kitty"/>
+    </keybind>
+    <keybind key="W-p">
+      <action name="Execute" command="pcmanfm-qt"/>
+    </keybind>
+    <keybind key="W-f">
+      <action name="Execute" command="fpad"/>
+    </keybind>
+    <keybind key="A-Space">
+      <action name="Execute" command="wldash"/>
+    </keybind>
+    <keybind key="A-F2">
+      <action name="Execute" command="wldash"/>
+    </keybind>
+    <!-- For qterminal dropdown -->
+    <keybind key="W-Space">
+      <action name="Execute" command="sh /home/ringo/.config/rofi/launchers/launcher.sh"/>
+    </keybind>
+    <keybind key="F12">
+      <action name="Execute" command="toggledropdown"/>
+    </keybind>
+    <keybind key="W-KP_7">
+      <action name="SnapToRegion" region="top-left"/>
+    </keybind>
+    <keybind key="W-KP_8">
+      <action name="SnapToRegion" region="top"/>
+    </keybind>
+    <keybind key="W-KP_9">
+      <action name="SnapToRegion" region="top-right"/>
+    </keybind>
+    <keybind key="W-KP_4">
+      <action name="SnapToRegion" region="left"/>
+    </keybind>
+    <keybind key="W-KP_5">
+      <action name="SnapToRegion" region="center"/>
+    </keybind>
+    <keybind key="W-KP_6">
+      <action name="SnapToRegion" region="right"/>
+    </keybind>
+    <keybind key="W-KP_1">
+      <action name="SnapToRegion" region="bottom-left"/>
+    </keybind>
+    <keybind key="W-KP_2">
+      <action name="SnapToRegion" region="bottom"/>
+    </keybind>
+    <keybind key="W-KP_3">
+      <action name="SnapToRegion" region="bottom-right"/>
+    </keybind>
+    <keybind key="C-A-Left">
+      <action name="GoToDesktop" to="left"/>
+    </keybind>
+    <keybind key="C-A-Right">
+      <action name="GoToDesktop" to="Right"/>
+    </keybind>
+  </keyboard>
+  <mouse>
+    <default/>
+    <!-- Show root menu on desktop also with right click -->
+    <context name="Root">
+      <mousebind button="Left" action="Press">
+        <action name="ShowMenu">
+          <menu>root-menu</menu>
+        </action>
+      </mousebind>
+      <mousebind button="Right" action="Press">
+        <action name="ShowMenu">
+          <menu>root-menu</menu>
+        </action>
+      </mousebind>
+      <mousebind button="Middle" action="Press">
+        <action name="ShowMenu">
+          <menu>root-menu</menu>
+        </action>
+      </mousebind>
+    </context>
+  </mouse>
+  <!--
+    The *category* element can be set to touch, non-touch, default or the name
+    of a device. You can obtain device names by running *libinput list-devices*
+    as root or member of the input group.
+    Tap is set to *yes* be default. All others are left blank in order to use
+    device defaults.
+    All values are [yes|no] except for:
+      - pointerSpeed [-1.0 to 1.0]
+      - accelProfile [flat|adaptive]
+      - tapButtonMap [lrm|lmr]
+  -->
+  <libinput>
+    <device category="default">
+      <naturalScroll>no</naturalScroll>
+      <leftHanded/>
+      <pointerSpeed>1</pointerSpeed>
+      <accelProfile>adaptive</accelProfile>
+      <tap>yes</tap>
+      <tapButtonMap/>
+      <middleEmulation/>
+      <disableWhileTyping>yes</disableWhileTyping>
+    </device>
+  </libinput>
+  <placement>
+    <policy>automatic</policy>
+  </placement>
+</labwc_config>

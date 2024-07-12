@@ -1,0 +1,14 @@
+    <separator />
+	<menu id="Labwc" label="Labwc">
+		<item label="Update Labwc Menu" icon="labwc">
+			<action name="Execute"><command>/home/.local/share/bin/update-labwc-menu</command></action>
+		</item>
+		<item label="Restart Labwc" icon="labwc">
+			<action name="Execute"><command>/usr/bin/labwc -r</command></action>
+		</item>
+		<item label="Exit Labwc" icon="labwc">
+			<action name="Execute"><command>wlogout</command></action>
+		</item>
+    </menu> <!-- Labwc Menu -->
+</menu> <!-- root-menu -->
+</openbox_menu>

@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<openbox_menu>
+<menu id="root-menu" label="root-menu">
+	<item label="Firefox" icon="firefox">
+		<action name="Execute"><command>/usr/lib/firefox/firefox</command></action>
+	</item>
+	<item label="Terminal" icon="terminal">
+		<action name="Execute"><command>/usr/bin/kitty</command></action>
+	</item>
+	<item label="File Browser" icon="terminal">
+		<action name="Execute"><command>/usr/bin/pcmanfm-qt</command></action>
+	</item>
+	<separator />
+  <menu id="Graphics" label="Afbeeldingen">
+    <item label="GNU Image Manipulation Program" icon="gimp">
+      <action name="Execute"><command>gimp-2.99</command></action>
+    </item>
+    <item label="Inkscape" icon="org.inkscape.Inkscape">
+      <action name="Execute"><command>inkscape</command></action>
+    </item>
+    <item label="Kleurenkiezer" icon="nl.hjdskes.gcolor3">
+      <action name="Execute"><command>gcolor3</command></action>
+    </item>
+    <item label="LibreOffice Draw" icon="libreoffice-draw">
+      <action name="Execute"><command>libreoffice --draw</command></action>
+    </item>
+  </menu> <!-- Graphics -->
+  <menu id="Accessories" label="Hulpmiddelen">
+    <item label="AppImageLauncher Settings" icon="AppImageLauncher">
+      <action name="Execute"><command>AppImageLauncherSettings</command></action>
+    </item>
+    <item label="Azote" icon="azote">
+      <action name="Execute"><command>azote</command></action>
+    </item>
+    <item label="Bestandbeheerder" icon="org.xfce.filemanager">
+      <action name="Execute"><command>exo-open --launch FileManager</command></action>
+    </item>
+    <item label="FeatherNotes" icon="feathernotes">
+      <action name="Execute"><command>feathernotes</command></action>
+    </item>
+    <item label="FeatherPad" icon="featherpad">
+      <action name="Execute"><command>featherpad</command></action>
+    </item>
+    <item label="Galculator" icon="galculator">
+      <action name="Execute"><command>galculator</command></action>
+    </item>
+    <item label="gomuks" icon="matrix">
+      <action name="Execute"><command>gomuks</command></action>
+    </item>
+    <item label="LibreOffice" icon="libreoffice-startcenter">
+      <action name="Execute"><command>libreoffice</command></action>
+    </item>
+    <item label="LXQt-bestandsarchiveerder" icon="lxqt-archiver">
+      <action name="Execute"><command>lxqt-archiver</command></action>
+    </item>
+    <item label="nchat" icon="nchat">
+      <action name="Execute"><command>nchat</command></action>
+    </item>
+    <item label="Over Xfce" icon="org.xfce.about">
+      <action name="Execute"><command>xfce4-about</command></action>
+    </item>
+    <item label="pacseek" icon="pacseek">
+      <action name="Execute"><command>kitty "pacseek"</command></action>
+    </item>
+    <item label="PCManFM-Qt-bestandsbeheerder" icon="system-file-manager">
+      <action name="Execute"><command>pcmanfm-qt</command></action>
+    </item>
+    <item label="picom" icon="picom">
+      <action name="Execute"><command>picom</command></action>
+    </item>
+    <item label="SDDM-instellingen" icon="preferences-system">
+      <action name="Execute"><command>sddm-conf</command></action>
+    </item>
+    <item label="Software Token" icon="stoken-gui">
+      <action name="Execute"><command>stoken-gui</command></action>
+    </item>
+    <item label="Software Token (small)" icon="stoken-gui">
+      <action name="Execute"><command>stoken-gui --small</command></action>
+    </item>
+    <item label="Terminalvenster" icon="org.xfce.terminalemulator">
+      <action name="Execute"><command>exo-open --launch TerminalEmulator</command></action>
+    </item>
+    <item label="Ventoy" icon="ventoy">
+      <action name="Execute"><command>ventoygui</command></action>
+    </item>
+    <item label="Waycheck" icon="dev.serebit.Waycheck">
+      <action name="Execute"><command>waycheck</command></action>
+    </item>
+  </menu> <!-- Accessories -->
+  <menu id="Settings" label="Instellingen">
+    <item label="AppImageLauncher Settings" icon="AppImageLauncher">
+      <action name="Execute"><command>AppImageLauncherSettings</command></action>
+    </item>
+    <item label="Azote" icon="azote">
+      <action name="Execute"><command>azote</command></action>
+    </item>
+    <item label="Beeldscherm" icon="org.xfce.settings.display">
+      <action name="Execute"><command>xfce4-display-settings</command></action>
+    </item>
+    <item label="Bureaublad" icon="user-desktop">
+      <action name="Execute"><command>pcmanfm-qt --desktop-pref=general</command></action>
+    </item>
+    <item label="Connman-gebruikersinterface instellen" icon="cmst">
+      <action name="Execute"><command>cmst</command></action>
+    </item>
+    <item label="Displays" icon="network.cycles.wdisplays">
+      <action name="Execute"><command>wdisplays</command></action>
+    </item>
+    <item label="Geavanceerde netwerkconfiguratie" icon="preferences-system-network">
+      <action name="Execute"><command>nm-connection-editor</command></action>
+    </item>
+    <item label="GTK Settings" icon="nwg-look">
+      <action name="Execute"><command>nwg-look</command></action>
+    </item>
+    <item label="Instellingen- en systeembeheerder" icon="org.xfce.settings.manager">
+      <action name="Execute"><command>xfce4-settings-manager</command></action>
+    </item>
+    <item label="Instellingenbewerker voor Xfconf" icon="org.xfce.settings.editor">
+      <action name="Execute"><command>xfce4-settings-editor</command></action>
+    </item>
+    <item label="Kleurprofielen" icon="org.xfce.settings.color">
+      <action name="Execute"><command>xfce4-color-settings</command></action>
+    </item>
+    <item label="Labwc Tweaks" icon="labwc_tweaks">
+      <action name="Execute"><command>labwc-tweaks</command></action>
+    </item>
+    <item label="Muis en aanraakveld" icon="org.xfce.settings.mouse">
+      <action name="Execute"><command>xfce4-mouse-settings</command></action>
+    </item>
+    <item label="Qt5 Settings" icon="preferences-desktop-theme">
+      <action name="Execute"><command>qt5ct</command></action>
+    </item>
+    <item label="Qt6 Settings" icon="preferences-desktop-theme">
+      <action name="Execute"><command>qt6ct</command></action>
+    </item>
+    <item label="Sneltoetsen" icon="preferences-desktop-keyboard">
+      <action name="Execute"><command>lxqt-config-globalkeyshortcuts</command></action>
+    </item>
+    <item label="Standaardtoepassingen" icon="org.xfce.settings.default-applications">
+      <action name="Execute"><command>xfce4-mime-settings</command></action>
+    </item>
+    <item label="Toegankelijkheid" icon="org.xfce.settings.accessibility">
+      <action name="Execute"><command>xfce4-accessibility-settings</command></action>
+    </item>
+    <item label="Toetsenbord" icon="org.xfce.settings.keyboard">
+      <action name="Execute"><command>xfce4-keyboard-settings</command></action>
+    </item>
+    <item label="Uiterlijk" icon="org.xfce.settings.appearance">
+      <action name="Execute"><command>xfce4-appearance-settings</command></action>
+    </item>
+    <item label="Werkbalk" icon="org.xfce.panel">
+      <action name="Execute"><command>xfce4-panel --preferences</command></action>
+    </item>
+    <item label="YAD settings" icon="yad">
+      <action name="Execute"><command>yad-settings</command></action>
+    </item>
+  </menu> <!-- Settings -->
+  <menu id="Internet" label="Internet">
+    <item label="Avahi SSH server browser" icon="network-wired">
+      <action name="Execute"><command>/usr/bin/bssh</command></action>
+    </item>
+    <item label="Avahi VNC server browser" icon="network-wired">
+      <action name="Execute"><command>/usr/bin/bvnc</command></action>
+    </item>
+    <item label="Connman-gebruikersinterface instellen" icon="cmst">
+      <action name="Execute"><command>cmst</command></action>
+    </item>
+    <item label="E-mailprogramma" icon="org.xfce.mailreader">
+      <action name="Execute"><command>exo-open --launch MailReader</command></action>
+    </item>
+    <item label="Element" icon="io.element.Element">
+      <action name="Execute"><command>/usr/bin/element-desktop</command></action>
+    </item>
+    <item label="Firefox webbrowser" icon="firefox">
+      <action name="Execute"><command>/usr/lib/firefox/firefox</command></action>
+    </item>
+    <item label="Geavanceerde netwerkconfiguratie" icon="preferences-system-network">
+      <action name="Execute"><command>nm-connection-editor</command></action>
+    </item>
+    <item label="Telegram Desktop" icon="telegram">
+      <action name="Execute"><command>telegram-desktop --</command></action>
+    </item>
+    <item label="Thunderbird" icon="org.mozilla.Thunderbird">
+      <action name="Execute"><command>thunderbird</command></action>
+    </item>
+    <item label="Webbrowser" icon="org.xfce.webbrowser">
+      <action name="Execute"><command>exo-open --launch WebBrowser</command></action>
+    </item>
+  </menu> <!-- Internet -->
+  <menu id="Office" label="Kantoor">
+    <item label="LibreOffice" icon="libreoffice-startcenter">
+      <action name="Execute"><command>libreoffice</command></action>
+    </item>
+    <item label="LibreOffice Base" icon="libreoffice-base">
+      <action name="Execute"><command>libreoffice --base</command></action>
+    </item>
+    <item label="LibreOffice Calc" icon="libreoffice-calc">
+      <action name="Execute"><command>libreoffice --calc</command></action>
+    </item>
+    <item label="LibreOffice Draw" icon="libreoffice-draw">
+      <action name="Execute"><command>libreoffice --draw</command></action>
+    </item>
+    <item label="LibreOffice Impress" icon="libreoffice-impress">
+      <action name="Execute"><command>libreoffice --impress</command></action>
+    </item>
+    <item label="LibreOffice Math" icon="libreoffice-math">
+      <action name="Execute"><command>libreoffice --math</command></action>
+    </item>
+    <item label="LibreOffice Writer" icon="libreoffice-writer">
+      <action name="Execute"><command>libreoffice --writer</command></action>
+    </item>
+    <item label="Xpdf" icon="xpdf">
+      <action name="Execute"><command>xpdf</command></action>
+    </item>
+    <item label="Zathura" icon="org.pwmt.zathura">
+      <action name="Execute"><command>zathura</command></action>
+    </item>
+  </menu> <!-- Office -->
+  <menu id="Multimedia" label="Multimedia">
+    <item label="Audacious" icon="audacious">
+      <action name="Execute"><command>audacious</command></action>
+    </item>
+    <item label="Celluloid" icon="io.github.celluloid_player.Celluloid">
+      <action name="Execute"><command>celluloid</command></action>
+    </item>
+    <item label="Echomixer" icon="echomixer">
+      <action name="Execute"><command>echomixer</command></action>
+    </item>
+    <item label="Envy24 Control" icon="envy24control">
+      <action name="Execute"><command>envy24control</command></action>
+    </item>
+    <item label="FreetuxTV" icon="freetuxtv">
+      <action name="Execute"><command>freetuxtv</command></action>
+    </item>
+    <item label="HDAJackRetask" icon="(null)">
+      <action name="Execute"><command>hdajackretask</command></action>
+    </item>
+    <item label="HDSPConf" icon="hdspconf">
+      <action name="Execute"><command>hdspconf</command></action>
+    </item>
+    <item label="HDSPMixer" icon="hdspmixer">
+      <action name="Execute"><command>hdspmixer</command></action>
+    </item>
+    <item label="Hwmixvolume" icon="hwmixvolume">
+      <action name="Execute"><command>hwmixvolume</command></action>
+    </item>
+    <item label="mpv Media Player" icon="mpv">
+      <action name="Execute"><command>mpv --player-operation-mode=pseudo-gui --</command></action>
+    </item>
+    <item label="Qt V4L2 test Utility" icon="qv4l2">
+      <action name="Execute"><command>qv4l2</command></action>
+    </item>
+    <item label="Qt V4L2 video capture utility" icon="qvidcap">
+      <action name="Execute"><command>qvidcap</command></action>
+    </item>
+    <item label="SMPlayer" icon="smplayer">
+      <action name="Execute"><command>smplayer</command></action>
+    </item>
+    <item label="VLC media player" icon="vlc">
+      <action name="Execute"><command>/usr/bin/vlc --started-from-file</command></action>
+    </item>
+  </menu> <!-- Multimedia -->
+  <menu id="Education" label="Onderwijs">
+    <item label="LibreOffice Math" icon="libreoffice-math">
+      <action name="Execute"><command>libreoffice --math</command></action>
+    </item>
+  </menu> <!-- Education -->
+  <menu id="Development" label="Ontwikkeling">
+    <item label="CMake" icon="CMakeSetup">
+      <action name="Execute"><command>cmake-gui</command></action>
+    </item>
+    <item label="Electron 30" icon="electron30">
+      <action name="Execute"><command>electron30</command></action>
+    </item>
+    <item label="Electron 31" icon="electron31">
+      <action name="Execute"><command>electron31</command></action>
+    </item>
+    <item label="Git Cola" icon="git-cola">
+      <action name="Execute"><command>git-cola --prompt</command></action>
+    </item>
+    <item label="Git DAG" icon="git-cola">
+      <action name="Execute"><command>git-dag --prompt</command></action>
+    </item>
+    <item label="GitHub Desktop" icon="github-desktop">
+      <action name="Execute"><command>/usr/bin/github-desktop --enable-features=WaylandWindowDecorations --ozone-platform=wayland</command></action>
+    </item>
+    <item label="Glade" icon="org.gnome.Glade">
+      <action name="Execute"><command>glade</command></action>
+    </item>
+    <item label="Icon Browser" icon="yad">
+      <action name="Execute"><command>yad-icon-browser</command></action>
+    </item>
+    <item label="Meld" icon="org.gnome.Meld">
+      <action name="Execute"><command>meld</command></action>
+    </item>
+    <item label="Waycheck" icon="dev.serebit.Waycheck">
+      <action name="Execute"><command>waycheck</command></action>
+    </item>
+  </menu> <!-- Development -->
+  <menu id="Games" label="Spelletjes">
+    <item label="0 A.D." icon="0ad">
+      <action name="Execute"><command>0ad</command></action>
+    </item>
+    <item label="Speed Dreams (2.3.0)" icon="appimagekit_7f0f39b2b9bef097923ab7feaa3a95ab_speed-dreams">
+      <action name="Execute"><command>/home/ringo/Applications/speed-dreams-2.3.0-x86-64.AppImage</command></action>
+    </item>
+    <item label="SpeedDreams" icon="speeddream">
+      <action name="Execute"><command>./home/ringo/Downloads/speeddream/speed-dreams-2.3.0-x86-64.AppImage</command></action>
+    </item>
+    <item label="Teeworlds" icon="teeworlds">
+      <action name="Execute"><command>teeworlds</command></action>
+    </item>
+  </menu> <!-- Games -->
+  <menu id="System" label="Systeem">
+    <item label="Avahi zeroconf browser" icon="network-wired">
+      <action name="Execute"><command>/usr/bin/avahi-discover</command></action>
+    </item>
+    <item label="btop++" icon="btop">
+      <action name="Execute"><command>btop</command></action>
+    </item>
+    <item label="Connman-gebruikersinterface instellen" icon="cmst">
+      <action name="Execute"><command>cmst</command></action>
+    </item>
+    <item label="dconf-bewerker" icon="ca.desrt.dconf-editor">
+      <action name="Execute"><command>dconf-editor</command></action>
+    </item>
+    <item label="EndeavourOS Quickstart Installer" icon="system-software-install">
+      <action name="Execute"><command>eos-quickstart</command></action>
+    </item>
+    <item label="eos-update" icon="endeavouros-icon">
+      <action name="Execute"><command>bash -c "echo '==> eos-update --yay'; eos-update --yay; eos-sleep-counter 60"</command></action>
+    </item>
+    <item label="Foot" icon="foot">
+      <action name="Execute"><command>foot</command></action>
+    </item>
+    <item label="Foot Client" icon="foot">
+      <action name="Execute"><command>footclient</command></action>
+    </item>
+    <item label="Foot Server" icon="foot">
+      <action name="Execute"><command>foot --server</command></action>
+    </item>
+    <item label="Hardware Locality lstopo" icon="hwloc">
+      <action name="Execute"><command>lstopo</command></action>
+    </item>
+    <item label="Htop" icon="htop">
+      <action name="Execute"><command>htop</command></action>
+    </item>
+    <item label="kitty" icon="kitty">
+      <action name="Execute"><command>kitty</command></action>
+    </item>
+    <item label="Octopi" icon="octopi">
+      <action name="Execute"><command>/usr/bin/octopi</command></action>
+    </item>
+    <item label="Octopi CacheCleaner" icon="octopi">
+      <action name="Execute"><command>/usr/bin/octopi-cachecleaner</command></action>
+    </item>
+    <item label="Octopi Notifier" icon="octopi">
+      <action name="Execute"><command>/usr/bin/octopi-notifier</command></action>
+    </item>
+    <item label="Octopi Repository Editor" icon="octopi">
+      <action name="Execute"><command>/usr/bin/octopi-repoeditor</command></action>
+    </item>
+    <item label="Reflector Simple" icon="endeavouros-icon">
+      <action name="Execute"><command>/usr/bin/reflector-simple</command></action>
+    </item>
+    <item label="Standaardtoepassingen" icon="org.xfce.settings.default-applications">
+      <action name="Execute"><command>xfce4-mime-settings</command></action>
+    </item>
+    <item label="Toegankelijkheid" icon="org.xfce.settings.accessibility">
+      <action name="Execute"><command>xfce4-accessibility-settings</command></action>
+    </item>
+    <item label="Virtuele machine beheerder" icon="virt-manager">
+      <action name="Execute"><command>virt-manager</command></action>
+    </item>
+    <item label="Waycheck" icon="dev.serebit.Waycheck">
+      <action name="Execute"><command>waycheck</command></action>
+    </item>
+    <item label="Welcome" icon="endeavouros-icon">
+      <action name="Execute"><command>eos-welcome --once</command></action>
+    </item>
+  </menu> <!-- System -->
+  <menu id="Other" label="Overige">
+    <item label="Rofi" icon="rofi">
+      <action name="Execute"><command>rofi -show</command></action>
+    </item>
+    <item label="Rofi Theme Selector" icon="rofi">
+      <action name="Execute"><command>rofi-theme-selector</command></action>
+    </item>
+  </menu> <!-- Other -->
+    <separator />
+	<menu id="Labwc" label="Labwc">
+		<item label="Update Labwc Menu" icon="labwc">
+			<action name="Execute"><command>/home/.local/share/bin/update-labwc-menu</command></action>
+		</item>
+		<item label="Restart Labwc" icon="labwc">
+			<action name="Execute"><command>/usr/bin/labwc -r</command></action>
+		</item>
+		<item label="Exit Labwc" icon="labwc">
+			<action name="Execute"><command>wlogout</command></action>
+		</item>
+    </menu> <!-- Labwc Menu -->
+</menu> <!-- root-menu -->
+</openbox_menu>
